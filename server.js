@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:5173','https://secondwave.in','https://www.secondwave.in','http://localhost:3001'],
+  origin: ['http://localhost:5173','https://www.mediaminddigital.ae/','http://localhost:3001','https://mediaminddigital.ae/'],
   credentials: true
 }));
 app.use(express.json());
