@@ -12,6 +12,8 @@ const generateToken = (id) => {
 
 export const login = async (req, res) => {
   try {
+
+    console.log("klkllkllklkl")
     console.log("reach")
     const { email, password } = req.body;
     console.log('Login attempt:', email);
